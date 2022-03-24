@@ -10,11 +10,12 @@ $("div#toast").append(`
                 </button>
             </div>
             <div class="toast-body">
-                Hello, world! This is a toast message.
+                이 메세지는 토스트메세지입니다. 3초 뒤에 자동으로 닫힙니다.
             </div>
         </div>
     </div>
 `)
+
 
 $(document).ready(function (e) {
     $("#liveToast").toast({

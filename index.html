@@ -27,6 +27,7 @@
 </head>
 
 <body>
+
     <!-- START : 토스트 예제 -->
     <h1>Toast</h1>
     <button type="button" class="btn btn-primary" id="liveToastBtn">Show live toast</button>
@@ -38,9 +39,10 @@
     <!-- START : Modal -->
     <!-- Button trigger modal -->
     <h1>Modal</h1>
-    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Default
-        Modal</button>
-
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Default Modal
+    </button>
+    <!-- Default Modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -58,7 +60,83 @@
             </div>
         </div>
     </div>
+
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+        static backdrop modal
+    </button>
+    <!-- Static Backdrop Modal -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Understood</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#scrollDialog">
+        scrollDialog modal
+    </button>
+    <!-- Scroll Modal -->
+    <div class="modal fade" id="scrollDialog" tabindex="-1" aria-labelledby="scrollDialogLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="scrollDialogLabel">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body scroll">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum tenetur, mollitia sint vitae
+                    asperiores eos iure ducimus saepe error facere. Illo itaque, a quam blanditiis explicabo nihil non
+                    incidunt laboriosam!
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo, harum corrupti? Saepe
+                    temporibus, cupiditate cumque sit laboriosam ratione magni dicta provident? Tenetur, aliquid dolorum
+                    nisi vero pariatur optio corporis aperiam!
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non dignissimos tempora est optio
+                    praesentium iusto officia eveniet molestias cumque natus soluta nulla ut quis inventore quas ipsum,
+                    alias iste repudiandae.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, culpa esse nulla eveniet quasi
+                    quibusdam eaque mollitia modi deleniti ipsa repellat, fugit, debitis ea at? Iste earum quasi vel
+                    quis!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero laboriosam ea in quo, consectetur
+                    amet modi vel. Accusantium, quos neque, fugit vero aut qui laboriosam, assumenda dolor rerum eius
+                    rem?
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, nesciunt laboriosam. Soluta id
+                    beatae, nesciunt eligendi facilis consequatur sapiente. Ducimus magni in molestias totam iste ipsum
+                    odit quam aliquam aspernatur!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit cupiditate dicta obcaecati, delectus
+                    molestiae quia tempora doloremque, vero impedit reprehenderit voluptatibus, ut fugiat adipisci est
+                    sed aperiam deleniti et laboriosam.
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea enim expedita vel quod necessitatibus
+                    earum laudantium facilis perferendis quisquam, cupiditate cum quasi dignissimos unde explicabo
+                    itaque repudiandae! Repudiandae, ipsa tempora.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit vel ullam alias exercitationem
+                    possimus aperiam, atque porro at? Accusamus voluptate quae architecto ex blanditiis cum quasi fuga
+                    quam iure et.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- END : Modal -->
+
+
+    <hr>
 
 
 
